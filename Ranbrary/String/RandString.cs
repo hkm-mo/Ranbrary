@@ -19,7 +19,7 @@ namespace Ranbrary.String
 
 		public static string GenString(int length)
 		{
-			return new string(Rand.Take(letters, length, true));
+			return new string(Rand.Take(letters, length, true)); 
 		}
 
 		public static string GenSerialNummber(int segmentLength, int segmentCount, char segmentSeparator)
