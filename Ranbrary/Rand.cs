@@ -85,7 +85,7 @@ namespace Ranbrary
 		/// </exception>
 		public static double GetDouble(double minValue, double maxValue)
 		{
-			if (minValue < maxValue)
+			if (minValue > maxValue)
 			{
 				throw new ArgumentOutOfRangeException("minValue is greater than maxValue.");
 			}
